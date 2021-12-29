@@ -3,7 +3,7 @@ import telebot
 
 bot = telebot.TeleBot(5010988549:AAH_1XMqggEuwsHLA_EBC-cgnGqGhdPojyQ)
 
-@bot.message_handler(commands=['Start'])
+@bot.message_handler(commands=['start'])
 def send_welcome(message):
   bot.reply_to(message, "Hello World..!")
 
